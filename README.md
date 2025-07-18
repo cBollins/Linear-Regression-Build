@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # First Principles Linear Regression Build
 
 A project to create and experiment with linear regression from scratch.
@@ -20,9 +19,7 @@ This was a more exploratory project enabling me to learn about how linear regres
 
 An example usage, compared with the sklearn model, will be in "EXAMPLE_nb.ipynb" This will include:
 
-1. Get some real-world data from Kaggle
-2. Perform some simple cleaning and preprocessing
-=======
-# Falling-Sand
-Simple pygame project that simulates falling sand
->>>>>>> 3f18434f1c3a71f1bdabd45d42caa6bed0ddca2b
+1. Get some data, we are going to use advertising data by github user *selva86*
+2. Typically, we perform some simple cleaning and preprocessing, but the dataset is already clean
+3. Split into training/testing data 80:20
+4. Fit both models on the same split
