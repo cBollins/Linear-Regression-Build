@@ -13,7 +13,7 @@ This was a more exploratory project enabling me to learn about how linear regres
 
 ## Usage
 
--- Explain how to run your code, train models, and evaluate results.
+The MyLinearReg class is initialised with two arguments, X, y. These are the features and independent variable respectively. Creating an instance will look like this, `model = MyLinearReg(X, y)`. Then, simple methods can be called such as `model.slope()` to get the coefficients, or `y_preds = model.predict(X_test)` to make predictions from the model. Although full completeness is generally desirable, for this proof of concept we only include a few key methods.
 
 ## Examples
 
