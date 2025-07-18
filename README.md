@@ -23,3 +23,7 @@ An example usage, compared with the sklearn model, will be in "EXAMPLE_nb.ipynb"
 2. Typically, we perform some simple cleaning and preprocessing, but the dataset is already clean
 3. Split into training/testing data 80:20
 4. Fit both models on the same split
+
+## Known Improvements
+
+The current model is a simple and intuitive correlation and univariate slope model that approximates what a multivariate 'ordinary least squares' model would do. This is the final step I will be taking in developing a full PoC linear regression model.
