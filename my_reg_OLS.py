@@ -1,6 +1,7 @@
 import numpy as np
 
-# create class
+# create the MyLinearReg class
+# this class will implement the OLS regression algorithm primarily developed in the notebook "OLS_Build.ipynb"
 class MyLinearReg:
     def __init__(self, X, y):
         self.X = np.array(X) # independent variables / features

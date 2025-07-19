@@ -12,6 +12,15 @@ A project to create and experiment with linear regression from scratch. The proj
 
 This project is an exploratory deep dive into the statistical foundation and practical application of linear regressors. 
 
+The developmental notebooks were created and used in the following order:
+
+1. build_2d.ipynb
+2. 2d_regression_final.ipynb
+3. build_multiple_dim.ipynb
+4. OLS_Build.ipynb
+
+A proof of concept and project summary tour can be found in "EXAMPLE_nb.ipynb". The prototype used in this example can be found in "my_reg_OLS.py", which was written off the back of "OLS_Build.ipynb".
+
 ## Usage
 
 The MyLinearReg class is initialised with two arguments, X, y. These are the features and independent variable respectively. Creating an instance will look like this, `model = MyLinearReg(X, y)`. Then, simple methods can be called such as `model.get_coefficients()` and `model.get_intercept()` to get the parameters, or `y_preds = model.predict(X_test)` to make predictions from the model. Although full completeness is generally desirable, for this proof of concept we only include a few key methods.
